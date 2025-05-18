@@ -1,11 +1,14 @@
-class Node {
-    constructor(val = null, next = null) {
+class Node
+ {
+    constructor(val = null, next = null)
+ {
       this.val = val;
       this.next = next;
     }
 }
 
-function addTwoList(l1, l2) {
+function addTwoList(l1, l2)
+ {
 
 let node = null
 
@@ -37,6 +40,6 @@ console.log("=>", addTwoNumbers({ val: 0, next: null }, { val: 0, next: null }))
 module.exports = {
     Node,
     addTwoList
-};
+}
 
 // More details here: https://leetcode.com/problems/add-two-numbers/solution/
