@@ -1,11 +1,15 @@
-class Node {
-    constructor(val = null, next = null) {
+class Node 
+{
+    constructor(val = null, next = null) 
+    
+    {
       this.val = val;
       this.next = next;
     }
 }
 
-function addTwoList(l1, l2) {
+function addTwoList(l1, l2) 
+{
 // type your code here
 }
 
@@ -20,6 +24,3 @@ module.exports = {
     Node,
     addTwoList
 };
-
-// Please add your pseudocode to this file
-// And a written explanation of your solution
